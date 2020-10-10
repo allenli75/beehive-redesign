@@ -19,6 +19,23 @@ const Landing = () => {
                 <p className="subheading">Explore <span style={{ color: '#FFD250', fontWeight: 700 }}>17</span> exciting research projects and counting</p>
                 <a href="/">Explore</a>
             </div>
+
+            <div className="about">
+              What is Beehive?
+              <p className="subheading2">
+                Beehive is a year-round, student-run platform for undergraduate
+                research at Berkeley aimed to fill the gaps left behind by
+                existing programs like URAP and SURF. Beehive is especially
+                valuable for faculty and graduate student researchers who wish
+                to recruit undergraduates for
+
+                <span className="highlight"> summer </span>,
+                <span className="highlight">informal </span>,
+                <span className="highlight">short-term </span>, or
+                <span className="highlight">otherwise off-cycle projects</span>
+                (e.g. after URAP deadline).
+              </p>
+            </div>
         </div>
     );
 };

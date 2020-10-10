@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     font-family: montserrat, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -67,4 +68,23 @@
 .hex2 {
     margin-right: -50px;
     margin-top: -200px;
+}
+
+.about {
+  font-size: 20px;
+  width: 60%;
+}
+
+.about .subheading2 {
+  font-size:16px;
+  font-weight: normal;
+}
+
+.highlight {
+  font-weight:700;
+  background-color: #FFE487;
+  border-radius: 5px;
+  padding-left:2px;
+  padding-right:2px;
+  margin-left:5px;
 }
