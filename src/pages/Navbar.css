@@ -1,0 +1,18 @@
+.nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    font-size: 18px;
+    border-bottom: solid 1px #D1D1D1;
+}
+
+.logo {
+    padding: 20px 30px;
+}
+
+.links {
+    padding: 20px 30px;
+}
