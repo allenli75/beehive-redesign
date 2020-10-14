@@ -1,0 +1,12 @@
+.card {
+  border-top: 1px solid #BDC3C7;
+  text-align: left;
+  padding: 10px;
+}
+
+.info {
+  width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

@@ -1,0 +1,11 @@
+.card-container {
+  border: 1px solid #BDC3C7;
+  width: 30%;
+  padding: 15px 0px 0px 0px;
+  height: 715px;
+  background-color: white;
+}
+.cards {
+  overflow-y: scroll;
+  height: 680px;
+}
