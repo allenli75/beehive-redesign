@@ -1,6 +1,9 @@
 
 .listing {
-  border: 1px solid #BDC3C7  ;
+  border-left: 1px solid #BDC3C7;
+  border-right: 1px solid #BDC3C7;
+  border-bottom: 1px solid #BDC3C7;
+
   width: 40%;
   padding: 15px;
   background-color: white;
@@ -53,7 +56,7 @@
   transition: all 0.2s ease-in-out;
 }
 .listing a:hover {
-  box-shadow: -2px -2px 4px #FFF, 2px 2px 4px #BABECC;
+  box-shadow: -2px -2px 2px #FFF, 2px 2px 2px #BABECC;
 }
 
 .role-description {

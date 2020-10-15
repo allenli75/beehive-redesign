@@ -6,7 +6,7 @@ const CardScroller = (props) => {
     return (
 
       <div className="card-container">
-        <div style={{fontWeight:"700",marginBottom:"10px", fontSize:"20px"}}> Positions </div>
+        <div className="position-title"> Positions </div>
         <div className="cards">
           {props.cards.map((card) =>
             <PositionCard
