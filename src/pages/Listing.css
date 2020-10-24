@@ -3,6 +3,7 @@
   border-left: 1px solid #BDC3C7;
   border-right: 1px solid #BDC3C7;
   border-bottom: 1px solid #BDC3C7;
+  overflow-y: scroll;
 
   width: 40%;
   padding: 15px;
@@ -43,9 +44,7 @@
 
 .listing a {
   text-decoration: none;
-  background-color: #EBECF0;
-  box-shadow: -2px -2px 8px #FFF,  2px 2px 8px #BABECC;
-  color: #566573;
+  color: black;
   line-height: 40px;
   font-size: 18px;
   font-weight: bolder;
@@ -55,15 +54,32 @@
   margin: 0px 20px 0px 20px;
   transition: all 0.2s ease-in-out;
 }
-.listing a:hover {
-  box-shadow: -2px -2px 2px #FFF, 2px 2px 2px #BABECC;
+
+.apply-button {
+  background-color: #FFE487;
+}
+.apply-button:hover {
+  background-color: #FFD250;
+}
+.apply-button:active {
+  background-color: #BD9F39;
 }
 
+.save-button {
+  border: 1px solid #FFE487;
+}
+.save-button:hover {
+  background-color: #FFE487;
+}
+.save-button:active{
+  background-color: #FFE487;
+}
+
+
 .role-description {
-  border: 1px solid #BDC3C7;
-  border-radius: 5px;
+  border-top: 1px solid #BDC3C7;
   padding: 10px;
   text-align: left;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   height: 450px;
 }
